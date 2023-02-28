@@ -10,13 +10,12 @@
 }
 
 .diapositive{
-    height: 80vh;
-    margin-top: 10vh;
+    height: 90vh;
+    margin-top: 7vh;
     position: relative;
 }
 
 .contenitoreImmagine{
-
     display: none;
 }
 
@@ -41,6 +40,14 @@
     top: 20px;
 }
 
+#successivo.none {
+    display: none;
+}
+
+#precedente.none {
+    display: none;
+}
+
 .bottoni{
     transform: translateX(-50%);
     left: 50%;
@@ -54,4 +61,8 @@
     height: 40px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.bottoni:hover{
+    opacity: 0.7;
 }
