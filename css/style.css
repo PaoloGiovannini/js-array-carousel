@@ -15,12 +15,8 @@
     position: relative;
 }
 
-.listaImmagini{
-    height: 100%;
-}
-
 .contenitoreImmagine{
-    height: 100%;
+
     display: none;
 }
 
@@ -30,7 +26,10 @@
 
 .foto{
     object-fit: cover;
-    width: 100%;
+    width: 100%;  
+}
+
+.listaImmagini, .contenitoreImmagine, .foto{
     height: 100%;
 }
 
